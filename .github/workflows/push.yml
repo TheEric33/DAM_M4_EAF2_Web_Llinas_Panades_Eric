@@ -1,5 +1,6 @@
 name: Deploy de la pàgina
 on:
+  pull_request:
   push:
     branches:
       -main
